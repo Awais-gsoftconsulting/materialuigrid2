@@ -1,13 +1,15 @@
-import React from 'react'
-import Material from './Material';
+import React from "react";
+import Blog from "./Blog/Blog";
+import Navbar from "./Blog/Navbar";
+import Practice from "./Practice";
 
 const App = () => {
   return (
-
- <Material/>
-    
-
-  )
-}
+    <>
+      <Navbar />
+      <Blog />
+    </>
+  );
+};
 
 export default App;
