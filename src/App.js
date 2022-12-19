@@ -1,13 +1,13 @@
 import React from "react";
 import Blog from "./Blog/Blog";
-import Navbar from "./Blog/Navbar";
-import Practice from "./Practice";
+import Navbar from "./Navbar";
+
+import P from "./P";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Blog />
     </>
   );
 };
