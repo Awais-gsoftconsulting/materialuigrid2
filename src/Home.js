@@ -23,6 +23,7 @@ const Home = () => {
           style={{
             backgroundColor: "blue",
             justifyContent: "center",
+            height: "40vh",
           }}
         >
           <Grid
@@ -32,9 +33,7 @@ const Home = () => {
             xs={11.8}
             sm={5.7}
             style={{ backgroundColor: "red" }}
-          >
-            <img src={img1} alt="error" />
-          </Grid>
+          ></Grid>
           <Grid
             container
             item
@@ -54,9 +53,7 @@ const Home = () => {
               sm={5.7}
               xs={11.9}
               sx={{ bgcolor: "green" }}
-            >
-              <img src={img1} alt="error" />
-            </Grid>
+            ></Grid>
             <Grid
               item
               lg={5}
